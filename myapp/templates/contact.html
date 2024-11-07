@@ -1,0 +1,21 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+     <a href="{% url 'about' %}">About</a>
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'services' %}">Login</a>
+    <a href="{% url 'blogs' %}">Blogs</a>
+    <a href="{% url 'help' %}">Help</a>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+</head>
+<body>
+<img src="{% static 'images/blue_long_hair_jinx_4k_5k_hd_arcane-5120x2880.jpg' %}" alt="">
+<h1>This is contact us page</h1>
+</body>
+</html>

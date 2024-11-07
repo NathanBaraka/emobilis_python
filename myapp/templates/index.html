@@ -1,0 +1,23 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <a href="{% url 'about' %}">About</a>
+    <a href="{% url 'contact' %}">Contact</a>
+    <a href="{% url 'services' %}">Services</a>
+    <a href="{% url 'blogs' %}">Blogs</a>
+    <a href="{% url 'help' %}">Help</a>
+</head>
+<body>
+<h2>Welcome to Django</h2>
+    <P>Welcome to Django
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem eligendi esse eum, magnam maxime minus neque nobis non placeat porro repudiandae, vero vitae! Dolor esse facilis laboriosam numquam veniam.</P>
+<img src="{% static 'images/2661570.jpg' %}" alt="">
+</body>
+</html>

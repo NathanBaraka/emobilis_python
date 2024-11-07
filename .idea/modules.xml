@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/Rubypython.iml" filepath="$PROJECT_DIR$/.idea/Rubypython.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/my_first_project.iml" filepath="$PROJECT_DIR$/.idea/my_first_project.iml" />
+>>>>>>> c4392db (Initial commit)
     </modules>
   </component>
 </project>
